@@ -1,12 +1,12 @@
 ```markdown
-## Smart OCR Translator
+Smart OCR Translator
 
-### What it is  
+What it is  
 Smart OCR Translator is a Python tool that takes **scanned PDFs or images in non-English languages** and converts them into an **English PDF while preserving the original layout** (positions of text, paragraphs, and structure).
 
 ---
 
-### What it does  
+What it does  
 - Reads a scanned document (PDF/image) in languages like French, Spanish, German, Italian, Portuguese, etc.  
 - Runs OCR to extract text + word positions from each page.  
 - Automatically detects the source language of the text.  
@@ -16,7 +16,7 @@ Smart OCR Translator is a Python tool that takes **scanned PDFs or images in non
 
 ---
 
-### Tech stack / Libraries used  
+Tech stack / Libraries used  
 - **Python**
 - **PyMuPDF (`fitz`)** – to load and rasterize PDF pages  
 - **pytesseract + Tesseract OCR** – to extract text and bounding boxes from images  
