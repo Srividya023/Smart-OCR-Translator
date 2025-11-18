@@ -1,5 +1,3 @@
-Okay, here’s a clean block you can copy into your README 👇
-
 ```markdown
 ## Smart OCR Translator
 
